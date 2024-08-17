@@ -1,4 +1,4 @@
-import Card from "./Amazoncard.jsx ";
+import Card from "./Amazoncard.jsx";
 import "./Amazontab.css"
 
 function Amazontab(){
