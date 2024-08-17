@@ -1,7 +1,7 @@
 import "./Amazoncard.css"
 import Price from "./price";
 
-function Card ({desc,features,idx}){
+function Card ({desc,features,idx }){
     let oldPrice = ["12500","9500","50000","160000","115000","149000"];
     let newPrice =["9800","5900","2500","130000","92000","110000"];
     return(

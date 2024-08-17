@@ -7,7 +7,7 @@ import Amazontab from './Amazontab'
 
 
 
-function App() {
+function App () {
   return (
     <>
       <Boxmsg userName="Lakshya" textColor="aqua" />
