@@ -1,0 +1,36 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    background-color: #000000;
+}
+
+.Tab {
+    display: grid;
+    margin: 20px;
+
+    grid-template-columns: 400px 400px 400px;
+
+}
+
+@media (width<=800px) {
+    .deals {
+        font-size: small;
+    }
+}
+
+@media(width<=1200px) {
+    .Tab {
+        display: grid;
+        grid-template-columns: 400px 400px;
+    }
+}
+
+@media(width<=800px) {
+    .Tab {
+        display: grid;
+        grid-template-columns: 400px;
+    }
+}
